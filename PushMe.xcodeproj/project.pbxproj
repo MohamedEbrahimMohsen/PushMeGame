@@ -15,6 +15,9 @@
 		CDE015022097BC2700755EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE015002097BC2700755EFE /* Main.storyboard */; };
 		CDE015042097BC2900755EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE015032097BC2900755EFE /* Assets.xcassets */; };
 		CDE015072097BC2900755EFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE015052097BC2900755EFE /* LaunchScreen.storyboard */; };
+		CDE015102097C51900755EFE /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0150F2097C51900755EFE /* GameElements.swift */; };
+		CDE0151220980A0A00755EFE /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE0151120980A0A00755EFE /* GameOverScene.swift */; };
+		CDE0151420980E3300755EFE /* bgMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDE0151320980E3300755EFE /* bgMusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CDE015032097BC2900755EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDE015062097BC2900755EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDE015082097BC2900755EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE0150F2097C51900755EFE /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		CDE0151120980A0A00755EFE /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		CDE0151320980E3300755EFE /* bgMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgMusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +66,28 @@
 		CDE014F52097BC2700755EFE /* PushMe */ = {
 			isa = PBXGroup;
 			children = (
-				CDE014F62097BC2700755EFE /* AppDelegate.swift */,
+				CDE0151120980A0A00755EFE /* GameOverScene.swift */,
+				CDE0151320980E3300755EFE /* bgMusic.mp3 */,
 				CDE014F82097BC2700755EFE /* GameScene.sks */,
-				CDE014FA2097BC2700755EFE /* Actions.sks */,
 				CDE014FC2097BC2700755EFE /* GameScene.swift */,
+				CDE0150F2097C51900755EFE /* GameElements.swift */,
 				CDE014FE2097BC2700755EFE /* GameViewController.swift */,
-				CDE015002097BC2700755EFE /* Main.storyboard */,
-				CDE015032097BC2900755EFE /* Assets.xcassets */,
-				CDE015052097BC2900755EFE /* LaunchScreen.storyboard */,
+				CDE0150E2097BD5800755EFE /* Supprting Files */,
 				CDE015082097BC2900755EFE /* Info.plist */,
 			);
 			path = PushMe;
+			sourceTree = "<group>";
+		};
+		CDE0150E2097BD5800755EFE /* Supprting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE014F62097BC2700755EFE /* AppDelegate.swift */,
+				CDE014FA2097BC2700755EFE /* Actions.sks */,
+				CDE015002097BC2700755EFE /* Main.storyboard */,
+				CDE015032097BC2900755EFE /* Assets.xcassets */,
+				CDE015052097BC2900755EFE /* LaunchScreen.storyboard */,
+			);
+			path = "Supprting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +153,7 @@
 				CDE015042097BC2900755EFE /* Assets.xcassets in Resources */,
 				CDE015072097BC2900755EFE /* LaunchScreen.storyboard in Resources */,
 				CDE014FB2097BC2700755EFE /* Actions.sks in Resources */,
+				CDE0151420980E3300755EFE /* bgMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE0151220980A0A00755EFE /* GameOverScene.swift in Sources */,
+				CDE015102097C51900755EFE /* GameElements.swift in Sources */,
 				CDE014FD2097BC2700755EFE /* GameScene.swift in Sources */,
 				CDE014FF2097BC2700755EFE /* GameViewController.swift in Sources */,
 				CDE014F72097BC2700755EFE /* AppDelegate.swift in Sources */,
